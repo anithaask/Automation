@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sitbdd"
+version = "1.0.0"
+description = "SIT BDD framework"
+authors = ["SIT BDD team"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+behave = "^1.2"
+requests = "^2.13"
+lxml = "^4.9.1"
+paho-mqtt = "^1.6.1"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^1.12"
+pytest = "^4.4"
+pytest-cov = "^2.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 160
+extend-ignore = E203
+per-file-ignores =
+    sitbdd/steps/__init__.py:F401, F403
+    sitbdd/steps/*/__init__.py:F401, F403
+    sitbdd/sitcore/bdd_utils/sit_logging.py:F401
+    sitbdd/steps/*:F811
+    # Ignoring F401 and F403 for __init__ files because they do not use their imports
+    # or are able to get them specifically due to steps being defined as step_impl.
+    # This is also the reason F811 is ignored for steps - redefinition using same name.

@@ -1,0 +1,134 @@
+{
+  "subnet": "192.168.0",
+  "nodes": {
+    "sc": {
+      "hostname_node": "123",
+      "hosts": {
+        "httpSimulator": "http://localhost:8080",
+        "siteServer": "https://localhost:443"
+      },
+      "authentications": {
+        "siteServer": {
+          "type": "windows-negotiate",
+          "parameters": {
+            "username": "automation",
+            "password": "automation"
+          }
+        }
+      },
+      "site_server_config": "C:/Program Files (x86)/Radiant/Lighthouse/Data/SiteServerConfig.xml",
+      "NAXML_schema_path": "C:/Program Files (x86)/Radiant/Lighthouse/Data/ExportDef/Schema/NAXML",
+      "support_dir": "C:/Support"
+    },
+    "pos": {
+      "hostname_node": "1",
+      "port": 10000,
+      "bin_dir": "C:\\Program Files\\Radiant\\Vir\\Bin\\NT-x86",
+      "print_sim": {
+        "hostname_node": "1",
+        "port": 5004
+      },
+      "scan_sim": {
+        "hostname_node": "1",
+        "port": 5002,
+        "scan_sim_barcodes": "sim4cfrpos\\api\\scan_sim\\SimBarcodes.xml"
+      },
+      "smtaskman": {
+        "hostname_node": "1",
+        "port": 10010
+      },
+      "simulators": {
+        "print_sim": {
+          "task_name": "PrintSimTask"
+        },
+        "scan_sim": {
+          "task_name": "ScanSimTask"
+        }
+      }
+    },
+    "css": {
+      "hostname_node": "45"
+    },
+    "kps": {
+      "hostname_node": "200"
+    },
+    "jag": {
+      "hostname_node": "100",
+      "simpumps": {
+        "hostname_node": "100",
+        "port": 2000,
+        "config_file_location": "C:\\Program Files (x86)\\Radiant\\Lighthouse\\Data\\RelayGen",
+        "config_file_name": "SimPumpsJaglessJag.xml"
+      }
+    },
+    "rcm": {
+      "server": {
+        "hostname": "hostname",
+        "port": 5004
+      },
+      "rcm_users": {
+        "cashier": 1234,
+        "manager": 2345
+      }
+    },
+    "eps_and_loyalty": {
+      "hostname_node": "123",
+      "pmi_port": 8600,
+      "pinpad": {
+        "hostname_node": "123",
+        "port": 11588
+      }
+    }
+  },
+  "simulators": {
+    "tank_sim": {
+      "hostname_node": "123",
+      "port": 8193
+    }
+  },
+  "jfrog_packages": {
+    "rpos_version": "rpos_version",
+    "rpos_path": "cfr-generic-group/rpos/main",
+    "rpos_artifacts": [
+      "Testing.zip",
+      "Testing.zip!/Testing/Devices/LegacySimulators/MoneyOrderSimulator.exe"
+    ],
+    "jag_version": "jag_version",
+    "jag_path": "cfr-generic-releases/jag/main",
+    "jag_artifacts": [
+      "AutomationTools.zip!/BDDServices.exe",
+      "CarwashSimulator.zip!/CarwashSimulator.exe",
+      "TankSimulator.zip!/TankSimulator.exe"
+    ],
+    "bdd_packages": [
+      "cfrpos",
+      "cfrsc",
+      "cfrrcmserver",
+      "cfrfuelbdd",
+      "cfrsmtaskman"
+    ]
+  },
+  "executables": [
+    "MoneyOrderSimulator.exe",
+    "CarwashSimulator.exe",
+    "TankSimulator.exe"
+  ],
+  "prereq_windowtitles": [
+    "Untitled - CarwashSimulator",
+    "MoneyOrderSimulator",
+    "Untitled - TankSimulator",
+    "Radiant Configuration Manager"
+  ],
+  "prereq_services": [
+    "Radiant Services",
+    "RSMServer",
+    "IM_Scheduler"
+  ],
+  "staging": "C:/Staging/Staging_sitbdd/",
+  "log_folder": "SITBDD_logs/",
+  "log_file_name": "sitbdd.log",
+  "trace_logging": false,
+  "enable_automation": "Testing/SystemAutomation/enable-automation.bat",
+  "system_logs": "system_logs/",
+  "fastpoint_logs": "C:/Program Files/Radiant/Fastpoint/Log"
+}

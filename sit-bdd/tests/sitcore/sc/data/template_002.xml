@@ -1,0 +1,6 @@
+<root>
+  <tag>no change</tag>
+  <tag>%%%no trailing percentages</tag>
+  <tag>no leading percentages%%%</tag>
+  <tag>%%one short on each side%%</tag>
+</root>

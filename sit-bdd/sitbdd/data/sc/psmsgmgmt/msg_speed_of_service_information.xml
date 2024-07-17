@@ -1,0 +1,28 @@
+<AuditCapture>
+<MessageLog>
+    <Node>1</Node>
+    <Date>%%%CurrentBusinessDate%%%</Date>
+    <Time>%%%CurrentTimeStamp%%%</Time>
+    <TimeStamp>%%%CurrentTimeStamp%%%</TimeStamp>
+    <Type>E</Type>
+    <MsgCode>537001988</MsgCode>
+    <Module>EV_Test_Suite</Module>
+    <TransactionData>
+        <TransactionNumber>%%%NewTranSeqNum%%%</TransactionNumber>
+        <SystemBusinessDate>%%%CurrentBusinessDate%%%</SystemBusinessDate>
+        <TransactionType>0</TransactionType>
+        <OperatorId>%%%SelectedOperatorId%%%</OperatorId>
+        <OperatorShiftId>0</OperatorShiftId>
+        <OperatorShiftDate>%%%CurrentBusinessDate%%%</OperatorShiftDate>
+    </TransactionData>
+    <SOSData>
+        <TimeStamp>%%%CurrentTimeStamp%%%</TimeStamp>
+        <SosEventType>60</SosEventType>
+        <TransactionMode>0</TransactionMode>
+        <TransactionStatus>0</TransactionStatus>
+        <Destination>1000002</Destination>
+        <BumpStationType>0</BumpStationType>
+        <BumpRoutingName>EV_Test_Suite</BumpRoutingName>
+    </SOSData>
+</MessageLog>
+</AuditCapture>

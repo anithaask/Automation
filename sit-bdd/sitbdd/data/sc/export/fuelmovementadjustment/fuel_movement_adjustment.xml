@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<radiant:FuelMovementAdjustment xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="3.4">
+    <TransmissionHeader>
+        <StoreLocationID>%%%SiteName%%%</StoreLocationID>
+        <VendorName>Radiant Systems, Inc.</VendorName>
+        <VendorModelVersion>RPOS Export: 1, 0, 0, 1</VendorModelVersion>
+        <radiant:TransmissionHeaderExtension>
+            <radiant:StoreName>%%%SiteLongName%%%</radiant:StoreName>
+            <radiant:BusinessDate>%%%CurrentBusinessDate%%%</radiant:BusinessDate>
+        </radiant:TransmissionHeaderExtension>
+    </TransmissionHeader>
+    <MovementHeader>
+        <ReportSequenceNumber>1</ReportSequenceNumber>
+        <PrimaryReportPeriod>2</PrimaryReportPeriod>
+        <SecondaryReportPeriod/>
+        <BusinessDate>%%%CurrentBusinessDate%%%</BusinessDate>
+        <BeginDate>%%%CurrentBusinessDate%%%</BeginDate>
+        <BeginTime>22:03:36</BeginTime>
+        <EndDate>%%%CurrentBusinessDate%%%</EndDate>
+        <EndTime>22:03:36</EndTime>
+    </MovementHeader>
+    <radiant:FuelMovementAdjustmentsReport>
+        <radiant:DispenserMeterAdjustment>
+            <radiant:FuelGradeID>%%%FuelGrade_IdByExtId, "unl-95"%%%</radiant:FuelGradeID>
+            <radiant:FuelPositionID>%%%((PumpNumber - 1) * HosesPerPump) + HoseNumber%%%</radiant:FuelPositionID>
+            <radiant:DispenserAdjustmentVolume>500</radiant:DispenserAdjustmentVolume>
+            <radiant:DispenserAdjustmentAmount>0</radiant:DispenserAdjustmentAmount>
+            <radiant:DispenserAdjustmentDate>%%%CurrentBusinessDate%%%</radiant:DispenserAdjustmentDate>
+            <radiant:DispenserAdjustmentTime>22:03:36</radiant:DispenserAdjustmentTime>
+            <radiant:DispenserAdjustmentReasonCodeId>rcm_meter_adj</radiant:DispenserAdjustmentReasonCodeId>
+            <radiant:DispenserAdjustmentReasonCodeDescription>RCM - Meter adjustment</radiant:DispenserAdjustmentReasonCodeDescription>
+        </radiant:DispenserMeterAdjustment>
+        <radiant:FeedstockMeterAdjustment>
+            <radiant:FuelProductID>%%%FuelProduct_IdByExtId, "unl-95"%%%</radiant:FuelProductID>
+            <radiant:FuelPositionID>%%%((PumpNumber - 1) * HosesPerPump) + HoseNumber%%%</radiant:FuelPositionID>
+            <radiant:FeedstockAdjustmentVolume>300</radiant:FeedstockAdjustmentVolume>
+            <radiant:FeedstockAdjustmentDate>%%%CurrentBusinessDate%%%</radiant:FeedstockAdjustmentDate>
+            <radiant:FeedstockAdjustmentTime>22:03:36</radiant:FeedstockAdjustmentTime>
+            <radiant:FeedstockAdjustmentReasonCodeID>rcm_meter_adj</radiant:FeedstockAdjustmentReasonCodeID>
+            <radiant:FeedstockAdjustmentReasonCodeDescription>RCM - Meter adjustment</radiant:FeedstockAdjustmentReasonCodeDescription>
+        </radiant:FeedstockMeterAdjustment>
+        <radiant:TankAdjustment>
+            <radiant:TankID>%%%SelectedTankNumber%%%</radiant:TankID>
+            <radiant:FuelProductID>%%%FuelProduct_IdByExtId, "unl-95"%%%</radiant:FuelProductID>
+            <radiant:TankAdjustmentVolume>600</radiant:TankAdjustmentVolume>
+            <radiant:TankAdjustmentDate>%%%CurrentBusinessDate%%%</radiant:TankAdjustmentDate>
+            <radiant:TankAdjustmentTime>22:03:36</radiant:TankAdjustmentTime>
+            <radiant:TankAdjustmentReasonCodeID>rcm_fuel_adj</radiant:TankAdjustmentReasonCodeID>
+            <radiant:TankAdjustmentReasonCodeDescription>RCM - Fuel Adjustment</radiant:TankAdjustmentReasonCodeDescription>
+        </radiant:TankAdjustment>
+        <radiant:FuelDelivery>
+            <radiant:TankID>%%%SelectedTankNumber%%%</radiant:TankID>
+            <radiant:FuelProductID>%%%FuelProduct_IdByExtId, "unl-95"%%%</radiant:FuelProductID>
+            <radiant:TankDeliveryDocumentNumber>%%%SelectedBillOfLadingNumber%%%</radiant:TankDeliveryDocumentNumber>
+            <radiant:TankDeliveryVolume>400</radiant:TankDeliveryVolume>
+            <radiant:TankDeliveryDate>%%%CurrentBusinessDate%%%</radiant:TankDeliveryDate>
+            <radiant:TankDeliveryTime>22:03:36</radiant:TankDeliveryTime>
+            <radiant:ReadingSource>manual</radiant:ReadingSource>
+        </radiant:FuelDelivery>
+        <radiant:DispenserMeterRollover>
+            <radiant:FuelGradeID>%%%FuelGrade_IdByExtId, "unl-95"%%%</radiant:FuelGradeID>
+            <radiant:FuelPositionID>%%%((PumpNumber - 1) * HosesPerPump) + HoseNumber%%%</radiant:FuelPositionID>
+            <radiant:DispenserElectronicAmountRollover>0</radiant:DispenserElectronicAmountRollover>
+            <radiant:DispenserElectronicVolumeRollover>2000</radiant:DispenserElectronicVolumeRollover>
+            <radiant:DispenserMechanicalAmountRollover>0</radiant:DispenserMechanicalAmountRollover>
+            <radiant:DispenserMechanicalVolumeRollover>0</radiant:DispenserMechanicalVolumeRollover>
+        </radiant:DispenserMeterRollover>
+        <radiant:FeedstockMeterRollover>
+            <radiant:FuelProductID>%%%FuelProduct_IdByExtId, "unl-95"%%%</radiant:FuelProductID>
+            <radiant:FuelPositionID>%%%((PumpNumber - 1) * HosesPerPump) + HoseNumber%%%</radiant:FuelPositionID>
+            <radiant:FeedstockElectronicRollover>10000</radiant:FeedstockElectronicRollover>
+            <radiant:FeedstockMechanicalRollover>0</radiant:FeedstockMechanicalRollover>
+        </radiant:FeedstockMeterRollover>
+    </radiant:FuelMovementAdjustmentsReport>
+</radiant:FuelMovementAdjustment>

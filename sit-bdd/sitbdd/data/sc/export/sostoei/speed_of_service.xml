@@ -1,0 +1,13 @@
+<RadiantDocument CreationSource="RadiantSiteController6.1" CreationTimestamp="2018-01-03 22:26:31" Name="DM_RadXML_Summary_Import" Version="6.1">
+	<SpeedOfService>
+		<BusinessDate>%%%CurrentBusinessDate%%%</BusinessDate>
+		<TranSequenceNumber>%%%NewTranSeqNum%%%</TranSequenceNumber>
+		<EmployeeID>%%%SelectedOperatorId%%%</EmployeeID>
+		<DestinationID>1000002</DestinationID>
+		<StartTimeSegment>%%%CurrentTimeStamp%%%</StartTimeSegment>
+		<TranStartTime/>
+		<TranStartTerminalID>0</TranStartTerminalID>
+		<TranPayTime>%%%CurrentTimeStamp%%%</TranPayTime>
+		<TranPayTerminalID>1</TranPayTerminalID>
+	</SpeedOfService>
+</RadiantDocument>

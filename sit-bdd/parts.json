@@ -1,0 +1,18 @@
+[
+    [
+        "ClassicPrepay.feature",
+        "EOS_and_EOD.feature",
+        "ExportExamples.feature",
+        "RestInGas.feature",
+        "FuelTank.feature"
+    ],
+    [
+        "Money_Order.feature",
+        "PayOut.feature",
+        "SmartPrepay.feature"
+    ],
+    [
+        "POS_ICR_utilities.feature",
+        "Postpay.feature"
+    ]
+]

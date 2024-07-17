@@ -1,0 +1,14 @@
+<FuelLine>
+    <FuelGradeID>unl-91</FuelGradeID>
+    <FuelPositionID>1</FuelPositionID>
+    <PriceTierCode>1</PriceTierCode>
+    <TimeTierCode></TimeTierCode>
+    <ServiceLevelCode>1</ServiceLevelCode>
+    <Description>UNL 91</Description>
+    <EntryMethod method="scan"/>
+    <ActualSalesPrice>1.889</ActualSalesPrice>
+    <MerchandiseCode>cat_natural</MerchandiseCode>
+    <RegularSellPrice>1.889</RegularSellPrice>
+    <SalesQuantity uom="gallonUS">2.647</SalesQuantity>
+    <SalesAmount>5</SalesAmount>
+</FuelLine>

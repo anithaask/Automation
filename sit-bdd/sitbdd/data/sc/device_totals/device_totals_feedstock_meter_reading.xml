@@ -1,0 +1,21 @@
+<DeviceTotals>
+    <FuelDispenserReport FuelDispenserReportVersion="1">
+        <FuelDispenser>
+            <Timestamp>%%%CurrentTimeStamp%%%</Timestamp>
+            <PumpNumber>%%%SelectedPumpNumber%%%</PumpNumber>
+            <HoseNumber>%%%SelectedHoseNumber%%%</HoseNumber>
+            <TierNumber>%%%SelectedTierNumber%%%</TierNumber>
+            <ProductNumber>%%%FuelProduct_IdByExtId, "unl-95"%%%</ProductNumber>
+            <Volume>5100</Volume>
+            <Amount>0</Amount>
+            <Price>0</Price>
+            <DataSource>Device</DataSource>
+        </FuelDispenser>
+        <FeedstockMeter>
+            <PumpNumber>%%%SelectedPumpNumber%%%</PumpNumber>
+            <FeedstockNumber>%%%SelectedFeedstockNumber%%%</FeedstockNumber>
+            <Volume>5100</Volume>
+            <DataSource>Device</DataSource>
+        </FeedstockMeter>
+    </FuelDispenserReport>
+</DeviceTotals>

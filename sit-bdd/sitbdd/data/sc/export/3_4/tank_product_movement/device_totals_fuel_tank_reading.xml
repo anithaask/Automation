@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAXML-MovementReport xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="3.4">
+	<TransmissionHeader>
+        <StoreLocationID>%%%SiteName%%%</StoreLocationID>
+        <VendorName>Radiant Systems, Inc.</VendorName>
+        <VendorModelVersion>RPOS Export: 6.19.7021</VendorModelVersion>
+        <radiant:TransmissionHeaderExtension>
+            <radiant:StoreName>%%%SiteLongName%%%</radiant:StoreName>
+            <radiant:BusinessDate>%%%CurrentBusinessDate%%%</radiant:BusinessDate>
+        </radiant:TransmissionHeaderExtension>
+	</TransmissionHeader>
+	<TankProductMovement>
+		<MovementHeader>
+			<ReportSequenceNumber>1</ReportSequenceNumber>
+			<PrimaryReportPeriod>2</PrimaryReportPeriod>
+			<SecondaryReportPeriod/>
+			<BusinessDate>%%%CurrentBusinessDate%%%</BusinessDate>
+			<BeginDate>%%%CurrentBusinessDate%%%</BeginDate>
+			<BeginTime>18:49:26</BeginTime>
+			<EndDate>%%%CurrentBusinessDate%%%</EndDate>
+			<EndTime>18:51:46</EndTime>
+		</MovementHeader>
+		<TankProdMovementHeader>
+			<ReadingDate>%%%CurrentBusinessDate%%%</ReadingDate>
+			<ReadingTime>18:49:27</ReadingTime>
+		</TankProdMovementHeader>
+		<TPMDetail>
+			<TankID>%%%SelectedTankNumber%%%</TankID>
+			<FuelProductID>unl-91</FuelProductID>
+			<FuelProductDepth>50</FuelProductDepth>
+			<FuelProductVolume>5103</FuelProductVolume>
+			<Ullage>15</Ullage>
+			<WaterVolume>100</WaterVolume>
+			<radiant:TPMDetailExtension>
+				<radiant:Water>
+					<radiant:WaterDepth>15</radiant:WaterDepth>
+				</radiant:Water>
+				<radiant:FuelProductTemperature>97</radiant:FuelProductTemperature>
+				<radiant:ReadingSource>electronic</radiant:ReadingSource>
+			</radiant:TPMDetailExtension>
+		</TPMDetail>
+	</TankProductMovement>
+</NAXML-MovementReport>

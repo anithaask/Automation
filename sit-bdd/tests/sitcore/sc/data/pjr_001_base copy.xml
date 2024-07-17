@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAXML-POSJournal xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="3.4">
+    <TransmissionHeader>
+        <StoreLocationID>004</StoreLocationID>
+        <VendorName>Radiant Systems, Inc.</VendorName>
+        <VendorModelVersion>RPOS Export: 1, 0, 0, 1</VendorModelVersion>
+        <radiant:TransmissionHeaderExtension>
+            <radiant:StoreName>NA Regression BDD (RLM)</radiant:StoreName>
+            <radiant:BusinessDate>2018-05-18</radiant:BusinessDate>
+        </radiant:TransmissionHeaderExtension>
+    </TransmissionHeader>
+    <JournalReport>
+        <JournalHeader>
+            <ReportSequenceNumber>1</ReportSequenceNumber>
+            <PrimaryReportPeriod>2018-05-18</PrimaryReportPeriod>
+            <SecondaryReportPeriod/>
+            <BeginDate>2018-05-18</BeginDate>
+            <BeginTime>01:10:57</BeginTime>
+            <EndDate>2018-05-18</EndDate>
+            <EndTime>01:11:05</EndTime>
+        </JournalHeader>
+        <SaleEvent uuid="">
+            <EventSequenceID>1</EventSequenceID>
+            <TrainingModeFlag value="no"/>
+            <CashierID>111-ExtID</CashierID>
+            <RegisterID>1</RegisterID>
+            <TillID>1</TillID>
+            <OutsideSalesFlag value="no"/>
+            <TransactionID>588</TransactionID>
+            <EventStartDate>2018-05-18</EventStartDate>
+            <EventStartTime>01:10:58</EventStartTime>
+            <EventEndDate>2018-05-18</EventEndDate>
+            <EventEndTime>01:10:58</EventEndTime>
+            <BusinessDate>2018-05-18</BusinessDate>
+            <ReceiptDate>2018-05-18</ReceiptDate>
+            <ReceiptTime>01:10:58</ReceiptTime>
+            <OfflineFlag value="no"/>
+            <SuspendFlag value="no"/>
+            <TransactionDetailGroup>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+                    <ItemLine>
+                        <ItemCode>
+                            <POSCodeFormat format="upcA"/>
+                            <POSCode>099999999990</POSCode>
+                            <POSCodeModifier name="">1</POSCodeModifier>
+                            <InventoryItemID/>
+                        </ItemCode>
+                        <Description>Sale Item A</Description>
+                        <EntryMethod method="button"/>
+                        <ActualSalesPrice>0.54</ActualSalesPrice>
+                        <MerchandiseCode>666</MerchandiseCode>
+                        <SellingUnits>1</SellingUnits>
+                        <Discount>
+                            <DiscountAmount>-0.1</DiscountAmount>
+                            <DiscountReason>Reward 1</DiscountReason>
+                        </Discount>
+                        <Discount>
+                            <DiscountAmount>-0.35</DiscountAmount>
+                            <DiscountReason>Reward 2</DiscountReason>
+                        </Discount>
+                        <RegularSellPrice>0.99</RegularSellPrice>
+                        <SalesQuantity>1</SalesQuantity>
+                        <SalesAmount>0.54</SalesAmount>
+                        <ItemTypeCode/>
+                        <SalesRestriction/>
+                    </ItemLine>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>1</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId/>
+                        <radiant:ItemLine>
+                            <radiant:External_Reference_Id>ITT-099999999990-upcA-1</radiant:External_Reference_Id>
+                            <radiant:RecalledTransactionID>0</radiant:RecalledTransactionID>
+                            <radiant:TaxItemizerMask>4</radiant:TaxItemizerMask>
+                            <radiant:OriginalTaxItemizerMask>0</radiant:OriginalTaxItemizerMask>
+                        </radiant:ItemLine>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+                    <ItemLine>
+                        <ItemCode>
+                            <POSCodeFormat format="none"/>
+                            <POSCode>0</POSCode>
+                            <POSCodeModifier name="">0</POSCodeModifier>
+                            <InventoryItemID/>
+                        </ItemCode>
+                        <Description>Radiant Loyalty</Description>
+                        <EntryMethod method="manual"/>
+                        <ActualSalesPrice>0</ActualSalesPrice>
+                        <MerchandiseCode>0</MerchandiseCode>
+                        <SellingUnits>1</SellingUnits>
+                        <RegularSellPrice>0</RegularSellPrice>
+                        <SalesQuantity>1</SalesQuantity>
+                        <SalesAmount>0</SalesAmount>
+                        <ItemTypeCode>LYLT</ItemTypeCode>
+                        <SalesRestriction/>
+                    </ItemLine>
+                    <CustomerID>
+                        <CashierBypassedFlag value="no"/>
+                        <EntryMethod method="manual"/>
+                        <PersonalID idType="loyaltyCard">40112106274</PersonalID>
+                        <IDExpirationDate xsi:nil="true"/>
+                        <IDIssuingAuthority/>
+                        <BirthDate xsi:nil="true"/>
+                    </CustomerID>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>2</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId/>
+                        <radiant:ItemLine>
+                            <radiant:External_Reference_Id/>
+                            <radiant:RecalledTransactionID>0</radiant:RecalledTransactionID>
+                            <radiant:TaxItemizerMask>0</radiant:TaxItemizerMask>
+                            <radiant:OriginalTaxItemizerMask>0</radiant:OriginalTaxItemizerMask>
+                        </radiant:ItemLine>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>4</TransactionLineSequenceNumber>
+                    <DiscountLine>
+                        <Discount>
+                            <DiscountAmount>-0.35</DiscountAmount>
+                            <DiscountReason>Reward 2</DiscountReason>
+                        </Discount>
+                    </DiscountLine>
+                    <PromotionTrigger>
+                        <PointsRedeemed>
+                            <RedeemedPointsTypeID>A</RedeemedPointsTypeID>
+                            <RedeemedPointsQuantity/>
+                        </PointsRedeemed>
+                        <CouponRedeemed>
+                            <RedeemedCouponID>1236</RedeemedCouponID>
+                        </CouponRedeemed>
+                    </PromotionTrigger>
+                    <CustomerID>
+                        <CashierBypassedFlag value="no"/>
+                        <EntryMethod method="other"/>
+                        <PersonalID idType="loyaltyCard">40112106274</PersonalID>
+                        <IDExpirationDate xsi:nil="true"/>
+                        <IDIssuingAuthority/>
+                        <BirthDate xsi:nil="true"/>
+                    </CustomerID>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>4</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId/>
+                        <radiant:Discount>
+                            <radiant:DiscountID type="DI">01_RCMd_Ir_FPR_0_10</radiant:DiscountID>
+                            <radiant:TargetLineNumber>1</radiant:TargetLineNumber>
+                            <radiant:DiscountQuantity>1</radiant:DiscountQuantity>
+                            <radiant:DiscountPart>
+                                <radiant:TargetLineNumber>1</radiant:TargetLineNumber>
+                                <radiant:DiscountedQuantity>1.0000</radiant:DiscountedQuantity>
+                                <radiant:DiscountedAmount>-0.35</radiant:DiscountedAmount>
+                            </radiant:DiscountPart>
+                        </radiant:Discount>
+                        <radiant:LoyaltyExtension>
+                            <radiant:LoyaltyTransactionID>200000013</radiant:LoyaltyTransactionID>
+                            <radiant:RewardRedeemed>
+                                <radiant:LoyaltyRewardID>3456</radiant:LoyaltyRewardID>
+                                <radiant:RewardProgramID>5678</radiant:RewardProgramID>
+                            </radiant:RewardRedeemed>
+                        </radiant:LoyaltyExtension>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>8</TransactionLineSequenceNumber>
+                    <DiscountLine>
+                        <Discount>
+                            <DiscountAmount>-0.1</DiscountAmount>
+                            <DiscountReason>Reward 1</DiscountReason>
+                        </Discount>
+                    </DiscountLine>
+                    <PromotionTrigger>
+                        <PointsRedeemed>
+                            <RedeemedPointsTypeID>A</RedeemedPointsTypeID>
+                            <RedeemedPointsQuantity/>
+                        </PointsRedeemed>
+                        <CouponRedeemed>
+                            <RedeemedCouponID>1234</RedeemedCouponID>
+                        </CouponRedeemed>
+                    </PromotionTrigger>
+                    <CustomerID>
+                        <CashierBypassedFlag value="no"/>
+                        <EntryMethod method="other"/>
+                        <PersonalID idType="loyaltyCard">40112106274</PersonalID>
+                        <IDExpirationDate xsi:nil="true"/>
+                        <IDIssuingAuthority/>
+                        <BirthDate xsi:nil="true"/>
+                    </CustomerID>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>8</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId/>
+                        <radiant:Discount>
+                            <radiant:DiscountID type="DI">01_RCMd_Ir_FPR_0_10</radiant:DiscountID>
+                            <radiant:TargetLineNumber>1</radiant:TargetLineNumber>
+                            <radiant:DiscountQuantity>1</radiant:DiscountQuantity>
+                            <radiant:DiscountPart>
+                                <radiant:TargetLineNumber>1</radiant:TargetLineNumber>
+                                <radiant:DiscountedQuantity>1.0000</radiant:DiscountedQuantity>
+                                <radiant:DiscountedAmount>-0.1</radiant:DiscountedAmount>
+                            </radiant:DiscountPart>
+                        </radiant:Discount>
+                        <radiant:LoyaltyExtension>
+                            <radiant:LoyaltyTransactionID>200000013</radiant:LoyaltyTransactionID>
+                            <radiant:RewardRedeemed>
+                                <radiant:LoyaltyRewardID>111</radiant:LoyaltyRewardID>
+                                <radiant:RewardProgramID>222</radiant:RewardProgramID>
+                            </radiant:RewardRedeemed>
+                        </radiant:LoyaltyExtension>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>12</TransactionLineSequenceNumber>
+                    <TenderInfo>
+                        <Tender>
+                            <TenderCode>1</TenderCode>
+                            <TenderSubCode>cash_tender</TenderSubCode>
+                        </Tender>
+                        <TenderAmount>0.57</TenderAmount>
+                        <ChangeFlag value="no"/>
+                    </TenderInfo>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>12</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId/>
+                        <radiant:TenderInfo/>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>13</TransactionLineSequenceNumber>
+                    <TransactionTax>
+                        <TaxLevelID>111</TaxLevelID>
+                        <TaxableSalesAmount>0.54</TaxableSalesAmount>
+                        <TaxCollectedAmount>0.03</TaxCollectedAmount>
+                    </TransactionTax>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>13</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId/>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+            </TransactionDetailGroup>
+            <TransactionSummary>
+                <RoundingAmount>0</RoundingAmount>
+                <TransactionTotalGrossAmount>0.54</TransactionTotalGrossAmount>
+                <TransactionTotalNetAmount>0.57</TransactionTotalNetAmount>
+                <TransactionTotalTaxSalesAmount>0.03</TransactionTotalTaxSalesAmount>
+                <TransactionTotalTaxNetAmount>0.03</TransactionTotalTaxNetAmount>
+                <radiant:TransactionSummaryExtension>
+                    <radiant:TransactionBarcode>2211070011362</radiant:TransactionBarcode>
+                </radiant:TransactionSummaryExtension>
+            </TransactionSummary>
+            <radiant:SaleEventExtension>
+                <radiant:ShiftNumber>1</radiant:ShiftNumber>
+                <radiant:SubTotal>0.54</radiant:SubTotal>
+                <radiant:InvoiceType/>
+                <radiant:InvoiceNumber>0</radiant:InvoiceNumber>
+                <radiant:UpdateRevision>0</radiant:UpdateRevision>
+                <radiant:ReceiptPrintCount>0</radiant:ReceiptPrintCount>
+            </radiant:SaleEventExtension>
+        </SaleEvent>
+    </JournalReport>
+</NAXML-POSJournal>

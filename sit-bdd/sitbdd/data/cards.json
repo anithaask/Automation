@@ -1,0 +1,216 @@
+{
+  "cards": [
+    {
+      "name": "credit",
+      "card_type": "Discover",
+      "track_data": "%B6011009909111115^LUKE SKYWALKER^0706101000000000000000000000000000000000000?;6011000990911111=07061010000000000000?"
+    },
+    {
+      "name": "credit_discover",
+      "card_type": "Discover",
+      "track_data": "'%B6011009909111115^LUKE SKYWALKER^0706101000000000000000000000000000000000000?;6011000990911111=07061010000000000000?'"
+    },
+    {
+      "name": "credit_mc",
+      "card_type": "Mastercard",
+      "track_data": ";5233456820070102=121010101010?"
+    },
+    {
+      "name": "credit_visa",
+      "card_type": "Visa",
+      "track_data": "%B4005550000000001^SLEDGE/ KEVIN^12121010293000748000000?"
+    },
+    {
+      "name": "credit_visa2",
+      "card_type": "Visa",
+      "track_data": ";4519035900008329=06061200000000000202?"
+    },
+    {
+      "name": "credit_amex",
+      "card_type": "AmericaExpress",
+      "track_data": "%B341111597242000^ISO/A1EX TEST             ^0712501050887977?"
+    },
+    {
+      "name": "credit_svc",
+      "card_type": "SVC",
+      "track_data": ";6006490601002217894=151211085570099?",
+      "barcode": "6006490601002217894"
+    },
+    {
+      "name": "svc",
+      "card_type": "SVC",
+      "track_data": ";6006490601002217894=151211085570099?",
+      "barcode": "444666"
+    },
+    {
+      "name": "svc_post_tender",
+      "card_type": "SVC",
+      "track_data": "%B6006490959999915387^KROGR                     ^1312110               1A4?;6006490959999915387=131211006179898?"
+    },
+    {
+      "name": "svc_one_step",
+      "card_type": "SVC",
+      "track_data": "%B6276686730931235^07675004256$01500$        ^8012110  Y?;6276686730931235=801211016496782?",
+      "barcode": "076750042560",
+      "barcode_long": "076750042560006276686730931235"
+    },
+    {
+      "name": "svc_one_step_post_tender",
+      "card_type": "SVC",
+      "track_data": "%B0000639455899938943^07675004299$02500$        ^1812110S41?;0000639455899938943=181211023482858?",
+      "barcode": "076750042997",
+      "barcode_long": "076750042990000639455899938943"
+    },
+    {
+      "name": "svc_one_step_recharge",
+      "card_type": "SVC",
+      "track_data": "%B0000639455899938943^07675004299$02500$        ^1812110S41?;0000639455899938943=181211023482858?",
+      "barcode": "076750042270",
+      "barcode_long": "076750042990000639455899938943"
+    },
+    {
+      "name": "credit_bad",
+      "card_type": "Visa",
+      "track_data": "%B4009999990000001^SLEDGE/ KEVIN^12121010293000748000000?"
+    },
+    {
+      "name": "credit_visa_fleet",
+      "card_type": "VisaFleet",
+      "track_data": "%B4485531111111118^VISA TEST CARD/GOOD^12121019206100000000000?"
+    },
+    {
+      "name": "credit_visa_od_vn_fuel",
+      "card_type": "VisaFleet",
+      "track_data": "%B4485531010101012^VISAFLEET/TRACK!and2^4912001123455587bys00123001022?;4485531010101012=491200112345123022?;4485531010101012=1249"
+    },
+    {
+      "name": "credit_fuelman",
+      "card_type": "FuelmanPlus",
+      "track_data": ";70764999352081616=1212?",
+      "pin": "11411"
+    },
+    {
+      "name": "credit_wex",
+      "card_type": "WEX",
+      "track_data": ";6900460420001234566=00031017212100000?",
+      "pin": "0841"
+    },
+    {
+      "name": "debit",
+      "track_data": "%B9999999800002773^PAYMENTECH^06121015432112345678?;9999999800002773=06121015432112345678?",
+      "pin": "1234"
+    },
+    {
+      "name": "debit_bad",
+      "track_data": "%B6011009909108089^LUKE SKYWALKER^0706101000000000000000000000000000000000000?;6011000990908089=07061010000000000000?",
+      "pin": "1111"
+    },
+    {
+      "name": "foodstamps_ebt",
+      "track_data": "%6004862001012758000?;6004862001012758000=491200000000?"
+    },
+    {
+      "name": "loyalty",
+      "track_data": "%603240012106274^CARD/S^0000?",
+      "barcode": "40112106274"
+    },
+    {
+      "name": "loyalty_cobranded",
+      "track_data": "%B5102413100000307^BARTEST/FRYSGREEN ^12031011750700127000000?;5102413100000307=090310117507127?",
+      "barcode": "40108512212"
+    },
+    {
+      "name": "loyalty_cobranded_visa_old",
+      "track_data": "%B4190013008100021^4190013008100021/NAME 2   ^0907101154500000000200567000000?",
+      "barcode": "40108512212"
+    },
+    {
+      "name": "loyalty_cobranded_visa_new_kroger",
+      "track_data": "%B4186210001003063^TESTCASEPASS/ETM          ^210610149299950535  00248000000?;4186210001003063=21061011426724800093?;4186210001003063=0614"
+    },
+    {
+      "name": "loyalty_cobranded_mc_new",
+      "track_data": "%B5102414100000487^AWDS0014/FMEYERS ^20071011271593544795000722?",
+      "barcode": "44795000722"
+    },
+    {
+      "name": "loyalty_weis",
+      "track_data": "%B60511300000000000^MYNAME^0620?",
+      "barcode": "60511300000000000"
+    },
+    {
+      "name": "loyalty_mysheetz",
+      "track_data": "%6277558000000000^MYNAME^0620?",
+      "barcode": "6277558000000000"
+    },
+    {
+      "name": "loyalty_bad",
+      "track_data": "%600591040852667^CARD/S^9912?;600590040852667=99?",
+      "barcode": "12345678900"
+    },
+    {
+      "name": "fsa",
+      "card_type": "FSA",
+      "track_data": "%600591040852667^CARD/S^9912?;600590040852667=99?"
+    },
+    {
+      "name": "drivers_license",
+      "card_type": "DriversLicense",
+      "track_data": ";63602599900100=550419900421=?",
+      "barcode": "@\\n\\u001E\\rAAMVA6360250101DL00290196DAQ29379353\\nDAAMATTHEW JAMES MICHRINA\\nDAG1105 MEADOW LN\\nDAIDUNCANSVILLE\\nDAJPA\\nDAK16635      \\nDARC   \\nDAS*/*             \\nDAT---- \\nDAU510\\nDAYHAZ\\nDBA20550422\\nDBB19900421\\nDBCM\\nDBD20120225\\nDBF00\\nDBHY\\r"
+    },
+    {
+      "name": "npc",
+      "card_type": "NPC",
+      "account_number": "23456123456789",
+      "pin": "1234"
+    },
+    {
+      "name": "lmop_npc_reward",
+      "card_type": "LMOP NPC",
+      "account_number": "45678123456787",
+      "pin": "1234"
+    },
+    {
+      "name": "lmop_npc_no_reward",
+      "card_type": "LMOP NPC",
+      "account_number": "45678123456788",
+      "pin": "1234"
+    },
+    {
+      "name": "mrd_trigger_card_2",
+      "card_type": "MRD Trigger Card 2",
+      "barcode": "2222"
+    },
+    {
+      "name": "mrd_trigger_card_3",
+      "card_type": "MRD Trigger Card 3",
+      "barcode": "5555"
+    },
+    {
+      "name": "mrd_trigger_card_4",
+      "card_type": "MRD Trigger Card 4",
+      "barcode": "6666"
+    },
+    {
+      "name": "mrd_trigger_card_5",
+      "card_type": "MRD Trigger Card 5",
+      "barcode": "7777"
+    },
+    {
+      "name": "mrd_trigger_card_6",
+      "card_type": "MRD Trigger Card 6",
+      "barcode": "8888"
+    },
+    {
+      "name": "mrd_trigger_card_7",
+      "card_type": "MRD Trigger Card 7",
+      "barcode": "9999"
+    },
+    {
+      "name": "mrd_trigger_card_no_discount",
+      "card_type": "MRD Trigger Card No Discount",
+      "barcode": "9998"
+    }
+  ]
+}

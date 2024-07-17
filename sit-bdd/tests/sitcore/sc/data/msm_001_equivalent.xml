@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAXML-MovementReport xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="3.4">
+    <TransmissionHeader>
+        <StoreLocationID>004</StoreLocationID>
+        <VendorName>Radiant Systems, Inc.</VendorName>
+        <VendorModelVersion>RPOS Export: 6.19.7021</VendorModelVersion>
+        <radiant:TransmissionHeaderExtension>
+            <radiant:StoreName>NA Regression SWAT (RLM)</radiant:StoreName>
+            <radiant:BusinessDate>2017-07-05</radiant:BusinessDate>
+        </radiant:TransmissionHeaderExtension>
+    </TransmissionHeader>
+    <MiscellaneousSummaryMovement>
+        <MovementHeader>
+            <ReportSequenceNumber>1</ReportSequenceNumber>
+            <PrimaryReportPeriod>2</PrimaryReportPeriod>
+            <SecondaryReportPeriod/>
+            <BusinessDate>2017-07-05</BusinessDate>
+            <BeginDate>2017-07-05</BeginDate>
+            <BeginTime>17:56:12</BeginTime>
+            <EndDate>2017-07-05</EndDate>
+            <EndTime>17:56:13</EndTime>
+        </MovementHeader>
+        <SalesMovementHeader>
+            <RegisterID xsi:nil="true"/>
+            <CashierID/>
+            <TillID/>
+            <EmployeeNumber/>
+        </SalesMovementHeader>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>2</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>0</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0.13</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>3</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier/>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>4</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier/>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount xsi:nil="true"/>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>7</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier/>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>8</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier/>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>9</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier/>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>16</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>2</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>7</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>20</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>0</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0.13</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>21</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>1</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>19</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>21</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>2</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>19</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>21</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>4</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>19</MiscellaneousSummarySubCodeModifier
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount>1</TenderTransactionsCount>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>9</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>1</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>2</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode>1</TenderCode>
+                    <TenderSubCode>cash_tender</TenderSubCode>
+                </Tender>
+                <TenderTransactionsCount>1</TenderTransactionsCount>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount>1</TenderTransactionsCount>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>9</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>1</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>5</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>9</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>1</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>9</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>18</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>1</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>unl-91</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1.281</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>18</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>4</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>unl-91</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1.281</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>18</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>5</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>unl-91</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>18</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>6</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>unl-91</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>19</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>1</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>1</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>19</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>2</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>1</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>19</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>12</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier/>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>0</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>0</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+        <MSMDetail>
+            <MiscellaneousSummaryCodes>
+                <MiscellaneousSummaryCode>9</MiscellaneousSummaryCode>
+                <MiscellaneousSummarySubCode>2</MiscellaneousSummarySubCode>
+                <MiscellaneousSummarySubCodeModifier>0</MiscellaneousSummarySubCodeModifier>
+            </MiscellaneousSummaryCodes>
+            <MSMSalesTotals>
+                <Tender>
+                    <TenderCode/>
+                    <TenderSubCode/>
+                </Tender>
+                <TenderTransactionsCount xsi:nil="true"/>
+                <ManualEntryFlag value="no"/>
+                <Currency currency="USD">0</Currency>
+                <MiscellaneousSummaryAmount>-2.29</MiscellaneousSummaryAmount>
+                <MiscellaneousSummaryCount>1</MiscellaneousSummaryCount>
+            </MSMSalesTotals>
+        </MSMDetail>
+    </MiscellaneousSummaryMovement>
+</NAXML-MovementReport>

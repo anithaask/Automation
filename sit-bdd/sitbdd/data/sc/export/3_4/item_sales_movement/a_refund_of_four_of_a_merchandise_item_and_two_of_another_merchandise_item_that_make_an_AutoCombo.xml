@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAXML-MovementReport version="3.4" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16" xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd">
+	<TransmissionHeader>
+		<StoreLocationID>%%%SiteName%%%</StoreLocationID>
+		<VendorName>Radiant Systems, Inc.</VendorName>
+		<VendorModelVersion>RPOS Export: 6.19.4064</VendorModelVersion>
+		<radiant:TransmissionHeaderExtension>
+			<radiant:StoreName>%%%SiteLongName%%%</radiant:StoreName>
+			<radiant:BusinessDate>2017-01-25</radiant:BusinessDate>
+		</radiant:TransmissionHeaderExtension>
+	</TransmissionHeader>
+	<ItemSalesMovement>
+		<MovementHeader>
+			<ReportSequenceNumber>1</ReportSequenceNumber>
+			<PrimaryReportPeriod>2</PrimaryReportPeriod>
+			<SecondaryReportPeriod/>
+			<BusinessDate>2017-01-25</BusinessDate>
+			<BeginDate>2017-01-24</BeginDate>
+			<BeginTime>21:39:10</BeginTime>
+			<EndDate>2017-01-24</EndDate>
+			<EndTime>21:42:29</EndTime>
+		</MovementHeader>
+		<SalesMovementHeader>
+			<RegisterID xsi:nil="true"/>
+			<CashierID/>
+			<TillID/>
+			<EmployeeNumber/>
+		</SalesMovementHeader>
+		<ISMDetail>
+			<ItemCode>
+				<POSCodeFormat format="upcA"/>
+				<POSCode>099999999990</POSCode>
+				<POSCodeModifier name="">1</POSCodeModifier>
+				<InventoryItemID/>
+			</ItemCode>
+			<ItemID>%%%RMI_ModifiedItemIdByExtId, ITT-099999999990-upcA-1%%%</ItemID>
+			<Description>%%%RMI_DescriptionByExtId, ITT-099999999990-upcA-1%%%</Description>
+			<MerchandiseCode>666</MerchandiseCode>
+			<SellingUnits>1</SellingUnits>
+			<ISMSellPriceSummary>
+				<ActualSalesPrice>0.99</ActualSalesPrice>
+				<ISMSalesTotals>
+					<SalesQuantity>-4</SalesQuantity>
+					<SalesAmount>-3.49</SalesAmount>
+					<DiscountAmount>-0.47</DiscountAmount>
+					<DiscountCount>1</DiscountCount>
+					<PromotionAmount>0</PromotionAmount>
+					<PromotionCount>0</PromotionCount>
+					<RefundAmount>3.49</RefundAmount>
+					<RefundCount>4</RefundCount>
+					<TransactionCount>1</TransactionCount>
+				</ISMSalesTotals>
+			</ISMSellPriceSummary>
+			<radiant:ISMDetailExtension/>
+		</ISMDetail>
+		<ISMDetail>
+			<ItemCode>
+				<POSCodeFormat format="upcA"/>
+				<POSCode>088888888880</POSCode>
+				<POSCodeModifier name="">1</POSCodeModifier>
+				<InventoryItemID/>
+			</ItemCode>
+			<ItemID>%%%RMI_ModifiedItemIdByExtId, ITT-088888888880-upcA-1%%%</ItemID>
+			<Description>%%%RMI_DescriptionByExtId, ITT-088888888880-upcA-1%%%</Description>
+			<MerchandiseCode>666</MerchandiseCode>
+			<SellingUnits>1</SellingUnits>
+			<ISMSellPriceSummary>
+				<ActualSalesPrice>1.99</ActualSalesPrice>
+				<ISMSalesTotals>
+					<SalesQuantity>-2</SalesQuantity>
+					<SalesAmount>-3.5</SalesAmount>
+					<DiscountAmount>-0.48</DiscountAmount>
+					<DiscountCount>1</DiscountCount>
+					<PromotionAmount>0</PromotionAmount>
+					<PromotionCount>0</PromotionCount>
+					<RefundAmount>3.5</RefundAmount>
+					<RefundCount>2</RefundCount>
+					<TransactionCount>1</TransactionCount>
+				</ISMSalesTotals>
+			</ISMSellPriceSummary>
+			<radiant:ISMDetailExtension/>
+		</ISMDetail>
+		<ISMDetail>
+			<ItemCode>
+				<POSCodeFormat format="upcA"/>
+				<POSCode>099999999990</POSCode>
+				<POSCodeModifier name="">1</POSCodeModifier>
+				<InventoryItemID/>
+			</ItemCode>
+			<ItemID>%%%RMI_ModifiedItemIdByExtId, ITT-099999999990-upcA-1%%%</ItemID>
+			<Description>%%%RMI_DescriptionByExtId, ITT-099999999990-upcA-1%%%</Description>
+			<MerchandiseCode>666</MerchandiseCode>
+			<SellingUnits>1</SellingUnits>
+			<ISMSellPriceSummary>
+				<ActualSalesPrice>0.99</ActualSalesPrice>
+				<ISMReasonSummary>
+					<ISMReason>P-Combo1a</ISMReason>
+					<ISMSalesTotals>
+						<SalesQuantity>-3</SalesQuantity>
+						<SalesAmount>-3.49</SalesAmount>
+						<DiscountAmount>-0.47</DiscountAmount>
+						<DiscountCount>1</DiscountCount>
+						<PromotionAmount>0</PromotionAmount>
+						<PromotionCount>0</PromotionCount>
+						<RefundAmount>3.49</RefundAmount>
+						<RefundCount>4</RefundCount>
+						<TransactionCount>1</TransactionCount>
+					</ISMSalesTotals>
+				</ISMReasonSummary>
+			</ISMSellPriceSummary>
+			<radiant:ISMDetailExtension/>
+		</ISMDetail>
+		<ISMDetail>
+			<ItemCode>
+				<POSCodeFormat format="upcA"/>
+				<POSCode>088888888880</POSCode>
+				<POSCodeModifier name="">1</POSCodeModifier>
+				<InventoryItemID/>
+			</ItemCode>
+			<ItemID>%%%RMI_ModifiedItemIdByExtId, ITT-088888888880-upcA-1%%%</ItemID>
+			<Description>%%%RMI_DescriptionByExtId, ITT-088888888880-upcA-1%%%</Description>
+			<MerchandiseCode>666</MerchandiseCode>
+			<SellingUnits>1</SellingUnits>
+			<ISMSellPriceSummary>
+				<ActualSalesPrice>1.99</ActualSalesPrice>
+				<ISMReasonSummary>
+					<ISMReason>P-Combo1b</ISMReason>
+					<ISMSalesTotals>
+						<SalesQuantity>-2</SalesQuantity>
+						<SalesAmount>-3.5</SalesAmount>
+						<DiscountAmount>-0.48</DiscountAmount>
+						<DiscountCount>1</DiscountCount>
+						<PromotionAmount>0</PromotionAmount>
+						<PromotionCount>0</PromotionCount>
+						<RefundAmount>3.5</RefundAmount>
+						<RefundCount>2</RefundCount>
+						<TransactionCount>1</TransactionCount>
+					</ISMSalesTotals>
+				</ISMReasonSummary>
+			</ISMSellPriceSummary>
+			<radiant:ISMDetailExtension/>
+		</ISMDetail>
+	</ItemSalesMovement>
+</NAXML-MovementReport>

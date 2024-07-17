@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAXML-POSJournal xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension"
+    xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd"
+    xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="3.4">
+    <TransmissionHeader>
+        <StoreLocationID>010122</StoreLocationID>
+        <VendorName>Radiant Systems, Inc.</VendorName>
+        <VendorModelVersion>RPOS Export: 2099.0.1.4462</VendorModelVersion>
+        <radiant:TransmissionHeaderExtension>
+            <radiant:StoreName>Default site</radiant:StoreName>
+            <radiant:BusinessDate>2023-01-09</radiant:BusinessDate>
+        </radiant:TransmissionHeaderExtension>
+    </TransmissionHeader>
+    <JournalReport>
+        <JournalHeader>
+            <ReportSequenceNumber>1</ReportSequenceNumber>
+            <PrimaryReportPeriod>2023-01-09</PrimaryReportPeriod>
+            <SecondaryReportPeriod></SecondaryReportPeriod>
+            <BeginDate>2023-01-09</BeginDate>
+            <BeginTime>13:37:08</BeginTime>
+            <EndDate>2023-01-09</EndDate>
+            <EndTime>14:18:09</EndTime>
+        </JournalHeader>
+        <SaleEvent uuid="">
+            <EventSequenceID>1</EventSequenceID>
+            <TrainingModeFlag value="no" />
+            <CashierID>cashier_1234</CashierID>
+            <RegisterID>1</RegisterID>
+            <TillID>1</TillID>
+            <OutsideSalesFlag value="no" />
+            <TransactionID>48</TransactionID>
+            <EventStartDate>2023-01-09</EventStartDate>
+            <EventStartTime>14:15:57</EventStartTime>
+            <EventEndDate>2023-01-09</EventEndDate>
+            <EventEndTime>14:15:57</EventEndTime>
+            <BusinessDate>2023-01-09</BusinessDate>
+            <ReceiptDate>2023-01-09</ReceiptDate>
+            <ReceiptTime>14:15:57</ReceiptTime>
+            <OfflineFlag value="no" />
+            <SuspendFlag value="no" />
+            <TransactionDetailGroup>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+                    <ItemLine>
+                        <ItemCode>
+                            <POSCodeFormat format="0" />
+                            <POSCode>099999999990</POSCode>
+                            <POSCodeModifier name="">1</POSCodeModifier>
+                            <InventoryItemID></InventoryItemID>
+                        </ItemCode>
+                        <Description>Sale Item A</Description>
+                        <EntryMethod method="button" />
+                        <ActualSalesPrice>0.99</ActualSalesPrice>
+                        <MerchandiseCode>666</MerchandiseCode>
+                        <SellingUnits>1</SellingUnits>
+                        <RegularSellPrice>0.99</RegularSellPrice>
+                        <SalesQuantity>1</SalesQuantity>
+                        <SalesAmount>0.99</SalesAmount>
+                        <ItemTypeCode></ItemTypeCode>
+                        <SalesRestriction></SalesRestriction>
+                    </ItemLine>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>1</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId></radiant:OrderSystemId>
+                        <radiant:EnteredBarcode>099999999990</radiant:EnteredBarcode>
+                        <radiant:ItemLine>
+                            <radiant:External_Reference_Id>ITT-099999999990-0-1</radiant:External_Reference_Id>
+                            <radiant:RecalledTransactionID>0</radiant:RecalledTransactionID>
+                            <radiant:TaxItemizerMask>14</radiant:TaxItemizerMask>
+                            <radiant:OriginalTaxItemizerMask>0</radiant:OriginalTaxItemizerMask>
+                        </radiant:ItemLine>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+                    <TenderInfo>
+                        <Tender>
+                            <TenderCode>1</TenderCode>
+                            <TenderSubCode>cash_tender</TenderSubCode>
+                        </Tender>
+                        <TenderAmount>1.06</TenderAmount>
+                        <ChangeFlag value="no" />
+                    </TenderInfo>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>2</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId></radiant:OrderSystemId>
+                        <radiant:TenderInfo />
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>3</TransactionLineSequenceNumber>
+                    <TransactionTax>
+                        <TaxLevelID>101</TaxLevelID>
+                        <TaxableSalesAmount>0.99</TaxableSalesAmount>
+                        <TaxCollectedAmount>0.01</TaxCollectedAmount>
+                    </TransactionTax>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>3</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId></radiant:OrderSystemId>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>4</TransactionLineSequenceNumber>
+                    <TransactionTax>
+                        <TaxLevelID>102</TaxLevelID>
+                        <TaxableSalesAmount>0.99</TaxableSalesAmount>
+                        <TaxCollectedAmount>0.02</TaxCollectedAmount>
+                    </TransactionTax>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>4</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId></radiant:OrderSystemId>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+                <TransactionLine status="normal" approverID="">
+                    <TransactionLineSequenceNumber>5</TransactionLineSequenceNumber>
+                    <TransactionTax>
+                        <TaxLevelID>103</TaxLevelID>
+                        <TaxableSalesAmount>0.99</TaxableSalesAmount>
+                        <TaxCollectedAmount>0.04</TaxCollectedAmount>
+                    </TransactionTax>
+                    <radiant:TransactionLineExtension>
+                        <radiant:DetailLineNumber>5</radiant:DetailLineNumber>
+                        <radiant:HoseID>0</radiant:HoseID>
+                        <radiant:OrderSystemId></radiant:OrderSystemId>
+                    </radiant:TransactionLineExtension>
+                </TransactionLine>
+            </TransactionDetailGroup>
+            <TransactionSummary>
+                <RoundingAmount>0</RoundingAmount>
+                <TransactionTotalGrossAmount>0.99</TransactionTotalGrossAmount>
+                <TransactionTotalNetAmount>1.06</TransactionTotalNetAmount>
+                <TransactionTotalTaxSalesAmount>0.07</TransactionTotalTaxSalesAmount>
+                <TransactionTotalTaxNetAmount>0.07</TransactionTotalTaxNetAmount>
+            </TransactionSummary>
+            <radiant:SaleEventExtension>
+                <radiant:ShiftNumber>4</radiant:ShiftNumber>
+                <radiant:SubTotal>0.99</radiant:SubTotal>
+                <radiant:InvoiceType></radiant:InvoiceType>
+                <radiant:InvoiceNumber>0</radiant:InvoiceNumber>
+                <radiant:UpdateRevision>0</radiant:UpdateRevision>
+                <radiant:ReceiptPrintCount>0</radiant:ReceiptPrintCount>
+                <radiant:OrderReferenceId></radiant:OrderReferenceId>
+                <radiant:OrderSystemId></radiant:OrderSystemId>
+                <radiant:SalesDestinationID>1</radiant:SalesDestinationID>
+            </radiant:SaleEventExtension>
+        </SaleEvent>
+    </JournalReport>
+</NAXML-POSJournal>

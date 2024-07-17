@@ -1,0 +1,5 @@
+<root>
+  <tag>%%%is template%%%</tag>
+  <tag>is not template</tag>
+  <tag>this has %%%more%%% than %%%one%%% substitution</tag>
+</root>

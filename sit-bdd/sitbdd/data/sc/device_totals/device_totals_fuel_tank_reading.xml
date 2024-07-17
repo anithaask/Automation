@@ -1,0 +1,16 @@
+<DeviceTotals>
+	<FuelTankReport>
+		<FuelTank>
+			<Timestamp>%%%CurrentTimeStamp%%%</Timestamp>
+			<TankID>%%%SelectedTankNumber%%%</TankID>
+			<ProductID>%%%FuelProduct_IdByExtId, "unl-91"%%%</ProductID>
+			<FuelVolume>5103</FuelVolume>
+			<FuelVolumeTemperatureCorrected>12</FuelVolumeTemperatureCorrected>
+			<Ullage>15</Ullage>
+			<FuelHeight>50</FuelHeight>
+			<WaterHeight>15</WaterHeight>
+			<WaterVolume>100</WaterVolume>
+			<Temperature>97</Temperature>
+		</FuelTank>
+	</FuelTankReport>
+</DeviceTotals>

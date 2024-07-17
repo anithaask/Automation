@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAXML-MovementReport xmlns:radiant="http://www.radiantsystems.com/NAXML-Extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naxml.org/POSBO/Vocabulary/2003-10-16 NAXML-PBI34RadiantExtended.xsd" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="3.4">
+    <TransmissionHeader>
+        <StoreLocationID>%%%SiteName%%%</StoreLocationID>
+        <VendorName>Radiant Systems, Inc.</VendorName>
+        <VendorModelVersion>RPOS Export: 6.19.7021</VendorModelVersion>
+        <radiant:TransmissionHeaderExtension>
+            <radiant:StoreName>%%%SiteLongName%%%</radiant:StoreName>
+            <radiant:BusinessDate>%%%CurrentBusinessDate%%%</radiant:BusinessDate>
+        </radiant:TransmissionHeaderExtension>
+    </TransmissionHeader>
+    <FuelProductMovement>
+        <MovementHeader>
+            <ReportSequenceNumber>1</ReportSequenceNumber>
+            <PrimaryReportPeriod>2</PrimaryReportPeriod>
+            <SecondaryReportPeriod/>
+            <BusinessDate>%%%CurrentBusinessDate%%%</BusinessDate>
+            <BeginDate>%%%CurrentBusinessDate%%%</BeginDate>
+            <BeginTime>15:52:12</BeginTime>
+            <EndDate>%%%CurrentBusinessDate%%%</EndDate>
+            <EndTime>15:52:21</EndTime>
+        </MovementHeader>
+        <SalesMovementHeader>
+            <RegisterID xsi:nil="true"/>
+            <CashierID/>
+            <TillID/>
+            <EmployeeNumber/>
+        </SalesMovementHeader>
+        <FPMDetail>
+            <FuelProductID>unl-95</FuelProductID>
+            <FPMNonResettableTotal>
+                <FuelPositionID>%%%((PumpNumber - 1) * HosesPerPump) + HoseNumber%%%</FuelPositionID>
+                <FuelProductNonResettableVolumeNumber>5100</FuelProductNonResettableVolumeNumber>
+                <FuelProductNonResettableAmountNumber/>
+            </FPMNonResettableTotal>
+        </FPMDetail>
+    </FuelProductMovement>
+</NAXML-MovementReport>
