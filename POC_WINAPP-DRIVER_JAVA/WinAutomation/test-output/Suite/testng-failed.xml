@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Itemid_2" value="4602886"/>
+    <parameter name="Itemid_1" value="4602787"/>
+    <classes>
+      <class name="com.qa.winapp.test.Testcases">
+        <methods>
+          <include name="Setup"/>
+          <include name="invokeapps"/>
+          <include name="mixed_preset_trans"/>
+          <include name="fuel_pak_trans"/>
+          <include name="tearDown"/>
+          <include name="fuel_preset_trans"/>
+          <include name="fuel_prepay_trans"/>
+        </methods>
+      </class> <!-- com.qa.winapp.test.Testcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

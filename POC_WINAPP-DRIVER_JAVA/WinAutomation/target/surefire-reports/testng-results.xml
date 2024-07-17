@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T11:15:35 BST" name="Suite" finished-at="2023-09-21T11:19:21 BST" duration-ms="226461">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T11:15:35 BST" name="Test" finished-at="2023-09-21T11:19:21 BST" duration-ms="226461">
+      <class name="com.qa.winapp.test.Testcases">
+        <test-method is-config="true" signature="invokeapps()[pri:0, instance:com.qa.winapp.test.Testcases@50a638b5]" started-at="2023-09-21T11:15:34 BST" name="invokeapps" finished-at="2023-09-21T11:15:35 BST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeapps -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.winapp.test.Testcases@50a638b5]" started-at="2023-09-21T11:15:35 BST" name="Setup" finished-at="2023-09-21T11:16:04 BST" duration-ms="29695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="dry_trans(java.lang.String,java.lang.String)[pri:1, instance:com.qa.winapp.test.Testcases@50a638b5]" started-at="2023-09-21T11:16:05 BST" name="dry_trans" finished-at="2023-09-21T11:17:03 BST" duration-ms="58471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4602787]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4602886]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dry_trans -->
+        <test-method signature="fuel_pak_trans()[pri:4, instance:com.qa.winapp.test.Testcases@50a638b5]" started-at="2023-09-21T11:17:03 BST" name="fuel_pak_trans" finished-at="2023-09-21T11:18:19 BST" duration-ms="76469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fuel_pak_trans -->
+        <test-method signature="fuel_prepay_trans()[pri:5, instance:com.qa.winapp.test.Testcases@50a638b5]" started-at="2023-09-21T11:18:20 BST" name="fuel_prepay_trans" finished-at="2023-09-21T11:19:21 BST" duration-ms="61603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fuel_prepay_trans -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.winapp.test.Testcases@50a638b5]" started-at="2023-09-21T11:19:21 BST" name="tearDown" finished-at="2023-09-21T11:19:22 BST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.winapp.test.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
